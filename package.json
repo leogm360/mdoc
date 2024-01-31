@@ -11,10 +11,13 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint --fix --max-warnings=0 --report-unused-disable-directives \"src/**/*.ts\""
   },
   "devDependencies": {
     "@types/node": "^20.11.13",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
+    "eslint": "^8.56.0",
     "typescript": "^5.3.3"
   }
 }
