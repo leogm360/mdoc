@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    /* Base */
+    "baseUrl": "./",
+
+    /* Build */
+    "outDir": "dist",
+    "target": "es2016",                                  
+
+    /* Module Resolution */
+    "module": "commonjs",                                
+
+    /* Type Checking */
+    "strict": true,                                      
+    "skipLibCheck": true,
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
